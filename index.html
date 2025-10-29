@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Destinasi Wisata Kecamatan Jembrana</title>
+  <!-- Bagian <head> digunakan untuk metadata,judul,dan pengaturan tampilan -->
+  <meta charset="utf-8" /> <!-- Mengatur karakter agar mendukung semua huruf termasuk aksen -->
+  <meta name="viewport" content="width=device-width,initial-scale=1" /> <!-- Supaya tampilan responsive di HP -->
+  <title>Destinasi Wisata Kecamatan Jembrana</title> <!-- Judul halaan yang muncul di tab browser -->
 
   <!-- Leaflet CSS (no API key needed) -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
 
   <style>
-    /* Fonts & basic layout */
+    /* Mengatur tampilan seluruh halaman */
     body {
-      font-family: "Times New Roman", Times, serif;
-      margin: 0;
+      font-family: "Times New Roman", Times, serif; /* Font utama seluruh halaman */
+      margin: 0; /* Menghapus jarak default di tepi layar */
       background: #f8f9fa;
-      color: #222;
+      color: #222; /* Warna later belakang lembut */
     }
 
     /* Header */
@@ -62,14 +63,15 @@
 
     /* Table */
     table {
-      width: 100%;
-      border-collapse: collapse;
-      background: #fff;
+      width: 100%; /* Lebar tabel memenuhi halaman */
+      border-collapse: collapse; /* Menggabungkan garis antar sel */
+      background: #fff; /* Warna latar putih */
       box-shadow: 0 2px 8px rgba(0,0,0,0.08);
       margin-bottom: 18px;
     }
-    th, td {
-      border: 1px solid #d0d0d0;
+   /* GAya untuk setiap sel tabel */
+    th,td {
+      border: 1px solid #d0d0d0; /* Garis tepi berwarna abu tua */
       padding: 12px;
       text-align: left;
       vertical-align: top;
@@ -140,6 +142,7 @@
       #map { height: 360px; }
     }
 
+   /* Bagian footer (kaki halaman) */
     footer {
       text-align: center;
       padding: 12px;
@@ -368,4 +371,5 @@
   </script>
 </body>
 </html>
+
 
